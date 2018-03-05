@@ -1,0 +1,34 @@
+{
+  "name": "a-simple-react-router-v4-tutorial",
+  "description": "https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf",
+  "version": "0.0.52",
+  "dependencies": {
+    "d3-array": "^1.2.0",
+    "d3-axis": "^1.0.8",
+    "d3-brush": "^1.0.4",
+    "d3-collection": "^1.0.4",
+    "d3-color": "^1.0.3",
+    "d3-force": "^1.0.6",
+    "d3-format": "^1.2.0",
+    "d3-hierarchy": "^1.1.5",
+    "d3-scale": "^1.0.6",
+    "d3-scale-chromatic": "^1.1.1",
+    "d3-selection": "^1.1.0",
+    "d3-shape": "^1.2.0",
+    "d3-svg-annotation": "^2.1.0",
+    "lodash": "^4.17.5",
+    "react": "15.5.3",
+    "react-dom": "15.5.3",
+    "react-router-dom": "4.1.1",
+    "topojson": "^3.0.2"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

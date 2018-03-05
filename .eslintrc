@@ -1,0 +1,60 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": "airbnb",
+  "plugins": [
+    "flowtype",
+    "flowtype-errors",
+    "import",
+    "promise",
+    "compat",
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": [
+      1,
+      120,
+      2,
+      {
+        "ignoreComments": true
+      }
+    ],
+    "jsx-a11y/href-no-hash": 0,
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": false,
+        "packageDir": "./kairos-ui/"
+      }
+    ],
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 1,
+    "no-param-reassign": 1,
+    "import/no-unresolved": 1,
+    "import/extensions": 1,
+    "no-case-declarations": 1,
+    "no-mixed-operators": 1,
+    "no-underscore-dangle": 1,
+    "consistent-return": 1,
+    "array-callback-return" : 1,
+    "class-methods-use-this": 0,
+    "no-else-return": 1,
+    "selector-pseudo-class-no-unknown": 0
+  },
+  "globals": {
+    "IssueAction": true,
+    "$": true,
+    "expect": true
+  }
+}
